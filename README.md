@@ -2,7 +2,7 @@
 We build docker image for astro project by using _alpine-slim_ variant of nginx as base image.
 For barebones astro project with react and tailwind added the resulting image size is around **11mb** which is quite good considering we get all the functionality for a web server like nginx.
 
-### Ngninx config
+### Nginx config
 Simple server block that listens for request on port 80 and serves available pages, also responds with custom 404 page if present in astro project. 
 ```nginx
 server {
